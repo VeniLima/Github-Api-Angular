@@ -1,0 +1,26 @@
+<div class="background">
+  <div class="container">
+    <div>
+      <form (ngSubmit)="getValue(box.value)">
+        <input #box type="text" name="inputValue" ngModel />
+        <button type="submit">Buscar</button>
+      </form>
+
+      <h1>Dados do usuário</h1>
+      <div class="imageContainer">
+        <img *ngIf="apiData" class="avatar" src="{{ apiData.avatar_url }}" />
+      </div>
+      <p class="userName">{{ apiData.name }}</p>
+
+      <p *ngIf="apiData" class="link">
+        Blog:<a *ngIf="apiData.blog" href="{{ apiData.blog }}"> Clique Aqui</a>
+      </p>
+      <h2>Repositórios</h2>
+      <ul>
+        <li *ngFor="let repos of repoData">
+          {{ repos.name }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

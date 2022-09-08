@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .background{
+    background: #404040;
+
+  }
+
+.container{
+    padding: 140px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #BFBFBF;
+    
+    margin-left: 700px;
+    margin-right: 700px;
+
+    
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  a{
+    margin-left: 5px;
+  }
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.avatar{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: solid 1px black;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.userName{
+  font-size: 16px;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.imageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+
+  
+  
+  li{
+    padding: 2px;
+    
+    list-style-position: outside;
+  }
+
+}
+
+form{
+  display: flex;
+  gap: 2px;
+  padding: 5px;
+  margin-bottom: 20px;
+}

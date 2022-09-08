@@ -1,27 +1,77 @@
-# CrudAngular
+# Github API
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+<!---<img src="exemplo-image.png" alt="exemplo imagem">--->
 
-## Development server
+> Projeto de uma interface web onde é possível buscar os dados de um usuário no github a partir do username
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Ajustes e melhorias
 
-## Code scaffolding
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [] Desenvolver minhas habilidades em angular
+-
+-
 
-## Build
+## 💻 Pré-requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-## Running unit tests
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Você instalou a versão mais recente de `<NodeJs>`
+- Você tem uma máquina `<Windows / Linux / Mac>`.
 
-## Running end-to-end tests
+## 🚀 Instalando <Github API>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para instalar o <Github API>, siga estas etapas:
 
-## Further help
+Linux e macOS:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+npm install
+```
+
+Windows:
+
+```
+npm install
+```
+
+## ☕ Usando <Github API>
+
+Para usar <Github API>, siga estas etapas:
+
+```
+ng serve
+```
+
+## 📫 Contribuindo para <Github API>
+
+<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+
+Para contribuir com <Github API>, siga estas etapas:
+
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
+
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="http://github.com/venilima.png" width="100px;" alt="Foto do Vinicius Lima no GitHub"/><br>
+        <sub>
+          <b>Vinicius Lima</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
