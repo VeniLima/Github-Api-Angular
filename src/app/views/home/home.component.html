@@ -10,15 +10,15 @@
       <div class="imageContainer">
         <img *ngIf="apiData" class="avatar" src="{{ apiData.avatar_url }}" />
       </div>
-      <p class="userName">{{ apiData.name }}</p>
+      <p *ngIf="apiData" class="userName">{{ apiData.name }}</p>
 
       <p *ngIf="apiData" class="link">
-        Blog:<a *ngIf="apiData.blog" href="{{ apiData.blog }}"> Clique Aqui</a>
+        Blog:<a *ngIf="apiData?.blog" href="{{ apiData.blog }}"> Clique Aqui</a>
       </p>
       <h2>Repositórios</h2>
-      <ul>
+      <ul *ngIf="repoData">
         <li *ngFor="let repos of repoData">
-          {{ repos.name }}
+          {{ repos?.name }}
         </li>
       </ul>
     </div>
